@@ -1,0 +1,36 @@
+body 
+{
+ background-color: yellow;   
+}
+
+h1
+{
+ color: rgb(37, 40, 99);
+ background-color: lightblue;   
+}
+
+#show_text
+{
+ float:right;   
+}
+
+canvas
+{
+border-radius: 20px;
+border: 5px solid greenyellow;
+animation-name: Doodle;
+animation-duration:4s ;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes Doodle {
+ from {box-shadow: 1px 1px 38px greenyellow;}
+ to {box-shadow: 1px 1px 38px blue;} 
+}
+
+p 
+{
+ padding-top: 10px;
+ font-size: 25px;   
+}
